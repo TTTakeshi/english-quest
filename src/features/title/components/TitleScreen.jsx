@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { getStreak, getReviewList } from '../utils/storage'
+import { getStreak, getReviewList } from '@/shared/lib/storage'
 
 export default function TitleScreen({ onStart, onReview }) {
   const [streak, setStreak] = useState(0)

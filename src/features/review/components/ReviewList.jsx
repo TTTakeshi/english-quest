@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { getReviewList } from '../utils/storage'
+import { getReviewList } from '@/shared/lib/storage'
 
 function formatAge(ts) {
   const diff = Date.now() - ts

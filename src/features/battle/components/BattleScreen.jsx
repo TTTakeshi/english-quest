@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
-import { generateQuestion } from '../utils/questions'
-import { addToReview, getReviewList } from '../utils/storage'
-import wordData, { allWords } from '../data/words'
+import { generateQuestion } from '@/shared/utils/questions'
+import { addToReview, getReviewList } from '@/shared/lib/storage'
+import wordData, { allWords } from '@/shared/data/words'
 
 // ── Constants ────────────────────────────────────────────
 const TOTAL_TIME       = 180

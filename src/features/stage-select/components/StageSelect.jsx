@@ -1,4 +1,4 @@
-import wordData from '../data/words'
+import wordData from '@/shared/data/words'
 
 const CATEGORIES = [
   { id: 'all',    name: 'ランダム全部', icon: '🎲', count: 80 },

@@ -1,4 +1,4 @@
-import wordData from '../data/words'
+import wordData from '@/shared/data/words'
 
 function shuffle(arr) {
   const a = [...arr]

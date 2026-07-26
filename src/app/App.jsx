@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import TitleScreen  from './screens/TitleScreen'
-import StageSelect  from './screens/StageSelect'
-import BattleScreen from './screens/BattleScreen'
-import ResultScreen from './screens/ResultScreen'
-import ReviewList   from './screens/ReviewList'
-import { updateStreak } from './utils/storage'
+import TitleScreen  from '@/features/title/components/TitleScreen'
+import StageSelect  from '@/features/stage-select/components/StageSelect'
+import BattleScreen from '@/features/battle/components/BattleScreen'
+import ResultScreen from '@/features/results/components/ResultScreen'
+import ReviewList   from '@/features/review/components/ReviewList'
+import { updateStreak } from '@/shared/lib/storage'
 
 export default function App() {
   const [screen,   setScreen]   = useState('title')

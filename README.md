@@ -55,3 +55,47 @@ npm run preview
 
 - [React](https://react.dev/) 18
 - [Vite](https://vitejs.dev/) 5
+
+## アーキテクチャ
+
+機能ごとに分割する **Feature-Sliced** 寄りの構成を採用しています。
+
+- `app`: エントリポイントとアプリ全体の構成
+- `features`: 画面/機能単位の UI とロジック
+- `shared`: 複数機能で共有するデータ・ユーティリティ・永続化処理
+
+## ディレクトリ構成
+
+```text
+src/
+   app/
+      App.jsx
+      styles/
+         global.css
+   features/
+      battle/components/
+         BattleScreen.jsx
+      results/components/
+         ResultScreen.jsx
+      review/components/
+         ReviewList.jsx
+      stage-select/components/
+         StageSelect.jsx
+      title/components/
+         TitleScreen.jsx
+   shared/
+      data/
+         word-data.json
+         words.js
+      lib/
+         storage.js
+      utils/
+         questions.js
+   main.jsx
+```
+
+## import ルール
+
+- 共有モジュール参照は `@` エイリアス（`src`）を優先
+- 例: `@/shared/lib/storage`, `@/features/battle/components/BattleScreen`
+
