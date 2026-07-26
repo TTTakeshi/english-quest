@@ -18,7 +18,7 @@ function getDistractors(correctWord, allWords, key, count = 3) {
   return shuffle(uniqueVals).slice(0, count)
 }
 
-export function generateQuestion(words, allWords, isBossPhase = false) {
+export function generateQuestion(words, allWords, isBossPhase = false, forcedWord = null) {
   // ボス戦: 50%の確率で穴埋め問題
   if (isBossPhase && Math.random() < 0.5 && wordData.fillInTemplates?.length > 0) {
     const tpl = wordData.fillInTemplates[Math.floor(Math.random() * wordData.fillInTemplates.length)]
@@ -32,7 +32,7 @@ export function generateQuestion(words, allWords, isBossPhase = false) {
     }
   }
 
-  const word = words[Math.floor(Math.random() * words.length)]
+  const word = forcedWord ?? words[Math.floor(Math.random() * words.length)]
   const type = Math.random() < 0.5 ? 'ja_to_en' : 'en_to_ja'
 
   if (type === 'ja_to_en') {

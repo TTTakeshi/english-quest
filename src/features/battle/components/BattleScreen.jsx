@@ -61,6 +61,11 @@ export default function BattleScreen({ categoryId, onGameEnd }) {
     return wordData.categories.find(c => c.id === categoryId)?.words
         ?? wordData.categories.flatMap(c => c.words)
   })()
+  const initialReviewWords = categoryId === 'review'
+    ? []
+    : getReviewList()
+        .filter(w => !w.reviewed)
+        .slice(0, 3)
 
   // ── State ──────────────────────────────────────────────
   const [playerHP, setPlayerHP]       = useState(PLAYER_MAX_HP)
@@ -88,10 +93,14 @@ export default function BattleScreen({ categoryId, onGameEnd }) {
   const gameEndedRef  = useRef(false)
   const wrongWordsRef = useRef([])
   const learnedRef    = useRef([])
+  const reviewQueueRef = useRef(initialReviewWords)
 
   // ── Question loader ────────────────────────────────────
   function loadQuestion(bossPhase) {
-    const q = generateQuestion(words, allWords, bossPhase)
+    const prioritizedWord = !bossPhase && reviewQueueRef.current.length > 0
+      ? reviewQueueRef.current.shift()
+      : null
+    const q = generateQuestion(words, allWords, bossPhase, prioritizedWord)
     setQuestion(q)
     setChoices(q.choices)
   }
