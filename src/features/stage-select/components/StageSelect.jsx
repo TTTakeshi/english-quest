@@ -1,7 +1,9 @@
 import wordData from '@/shared/data/words'
 
+const totalWordCount = wordData.categories.reduce((sum, c) => sum + c.words.length, 0)
+
 const CATEGORIES = [
-  { id: 'all',    name: 'ランダム全部', icon: '🎲', count: 80 },
+  { id: 'all',    name: 'ランダム全部', icon: '🎲', count: totalWordCount },
   ...wordData.categories.map(c => ({
     id: c.id, name: c.name, icon: c.icon, count: c.words.length,
   })),
