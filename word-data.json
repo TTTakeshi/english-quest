@@ -1,0 +1,220 @@
+{
+  "version": "1.0.0",
+  "totalWords": 80,
+  "categories": [
+    {
+      "id": "school",
+      "name": "学校生活",
+      "icon": "🏫",
+      "words": [
+        { "id": 1,  "en": "school",     "ja": "学校",   "type": "noun",      "difficulty": 1 },
+        { "id": 2,  "en": "classroom",  "ja": "教室",   "type": "noun",      "difficulty": 1 },
+        { "id": 3,  "en": "teacher",    "ja": "先生",   "type": "noun",      "difficulty": 1 },
+        { "id": 4,  "en": "student",    "ja": "生徒",   "type": "noun",      "difficulty": 1 },
+        { "id": 5,  "en": "textbook",   "ja": "教科書", "type": "noun",      "difficulty": 2 },
+        { "id": 6,  "en": "notebook",   "ja": "ノート", "type": "noun",      "difficulty": 1 },
+        { "id": 7,  "en": "pencil",     "ja": "鉛筆",   "type": "noun",      "difficulty": 1 },
+        { "id": 8,  "en": "eraser",     "ja": "消しゴム","type": "noun",     "difficulty": 2 },
+        { "id": 9,  "en": "blackboard", "ja": "黒板",   "type": "noun",      "difficulty": 2 },
+        { "id": 10, "en": "library",    "ja": "図書館", "type": "noun",      "difficulty": 2 },
+        { "id": 11, "en": "gym",        "ja": "体育館", "type": "noun",      "difficulty": 2 },
+        { "id": 12, "en": "desk",       "ja": "机",     "type": "noun",      "difficulty": 1 },
+        { "id": 13, "en": "chair",      "ja": "椅子",   "type": "noun",      "difficulty": 1 },
+        { "id": 14, "en": "test",       "ja": "テスト", "type": "noun",      "difficulty": 1 },
+        { "id": 15, "en": "homework",   "ja": "宿題",   "type": "noun",      "difficulty": 2 },
+        { "id": 16, "en": "subject",    "ja": "科目",   "type": "noun",      "difficulty": 2 },
+        { "id": 17, "en": "English",    "ja": "英語",   "type": "noun",      "difficulty": 1 },
+        { "id": 18, "en": "math",       "ja": "数学",   "type": "noun",      "difficulty": 1 },
+        { "id": 19, "en": "science",    "ja": "理科",   "type": "noun",      "difficulty": 2 },
+        { "id": 20, "en": "history",    "ja": "歴史",   "type": "noun",      "difficulty": 2 }
+      ]
+    },
+    {
+      "id": "actions",
+      "name": "日常動作",
+      "icon": "🏃",
+      "words": [
+        { "id": 21, "en": "eat",        "ja": "食べる",   "type": "verb",    "difficulty": 1 },
+        { "id": 22, "en": "drink",      "ja": "飲む",     "type": "verb",    "difficulty": 1 },
+        { "id": 23, "en": "sleep",      "ja": "眠る",     "type": "verb",    "difficulty": 1 },
+        { "id": 24, "en": "walk",       "ja": "歩く",     "type": "verb",    "difficulty": 1 },
+        { "id": 25, "en": "run",        "ja": "走る",     "type": "verb",    "difficulty": 1 },
+        { "id": 26, "en": "study",      "ja": "勉強する", "type": "verb",    "difficulty": 1 },
+        { "id": 27, "en": "read",       "ja": "読む",     "type": "verb",    "difficulty": 1 },
+        { "id": 28, "en": "write",      "ja": "書く",     "type": "verb",    "difficulty": 1 },
+        { "id": 29, "en": "listen",     "ja": "聞く",     "type": "verb",    "difficulty": 1 },
+        { "id": 30, "en": "speak",      "ja": "話す",     "type": "verb",    "difficulty": 1 },
+        { "id": 31, "en": "play",       "ja": "遊ぶ",     "type": "verb",    "difficulty": 1 },
+        { "id": 32, "en": "watch",      "ja": "見る",     "type": "verb",    "difficulty": 1 },
+        { "id": 33, "en": "go",         "ja": "行く",     "type": "verb",    "difficulty": 1 },
+        { "id": 34, "en": "come",       "ja": "来る",     "type": "verb",    "difficulty": 1 },
+        { "id": 35, "en": "get up",     "ja": "起きる",   "type": "phrase",  "difficulty": 1 },
+        { "id": 36, "en": "wash",       "ja": "洗う",     "type": "verb",    "difficulty": 1 },
+        { "id": 37, "en": "cook",       "ja": "料理する", "type": "verb",    "difficulty": 1 },
+        { "id": 38, "en": "clean",      "ja": "掃除する", "type": "verb",    "difficulty": 1 },
+        { "id": 39, "en": "help",       "ja": "手伝う",   "type": "verb",    "difficulty": 1 },
+        { "id": 40, "en": "use",        "ja": "使う",     "type": "verb",    "difficulty": 1 }
+      ]
+    },
+    {
+      "id": "time",
+      "name": "時間・曜日・月",
+      "icon": "🕐",
+      "words": [
+        { "id": 41, "en": "morning",    "ja": "朝",       "type": "noun",    "difficulty": 1 },
+        { "id": 42, "en": "afternoon",  "ja": "午後",     "type": "noun",    "difficulty": 1 },
+        { "id": 43, "en": "evening",    "ja": "夕方",     "type": "noun",    "difficulty": 1 },
+        { "id": 44, "en": "night",      "ja": "夜",       "type": "noun",    "difficulty": 1 },
+        { "id": 45, "en": "today",      "ja": "今日",     "type": "noun",    "difficulty": 1 },
+        { "id": 46, "en": "Monday",     "ja": "月曜日",   "type": "noun",    "difficulty": 1 },
+        { "id": 47, "en": "Tuesday",    "ja": "火曜日",   "type": "noun",    "difficulty": 2 },
+        { "id": 48, "en": "Wednesday",  "ja": "水曜日",   "type": "noun",    "difficulty": 2 },
+        { "id": 49, "en": "Thursday",   "ja": "木曜日",   "type": "noun",    "difficulty": 2 },
+        { "id": 50, "en": "Friday",     "ja": "金曜日",   "type": "noun",    "difficulty": 1 },
+        { "id": 51, "en": "Saturday",   "ja": "土曜日",   "type": "noun",    "difficulty": 1 },
+        { "id": 52, "en": "Sunday",     "ja": "日曜日",   "type": "noun",    "difficulty": 1 },
+        { "id": 53, "en": "January",    "ja": "1月",      "type": "noun",    "difficulty": 1 },
+        { "id": 54, "en": "February",   "ja": "2月",      "type": "noun",    "difficulty": 2 },
+        { "id": 55, "en": "March",      "ja": "3月",      "type": "noun",    "difficulty": 1 }
+      ]
+    },
+    {
+      "id": "family",
+      "name": "家族",
+      "icon": "👨‍👩‍👧",
+      "words": [
+        { "id": 56, "en": "father",      "ja": "父",       "type": "noun",   "difficulty": 1 },
+        { "id": 57, "en": "mother",      "ja": "母",       "type": "noun",   "difficulty": 1 },
+        { "id": 58, "en": "brother",     "ja": "兄・弟",   "type": "noun",   "difficulty": 1 },
+        { "id": 59, "en": "sister",      "ja": "姉・妹",   "type": "noun",   "difficulty": 1 },
+        { "id": 60, "en": "grandfather", "ja": "祖父",     "type": "noun",   "difficulty": 2 },
+        { "id": 61, "en": "grandmother", "ja": "祖母",     "type": "noun",   "difficulty": 2 },
+        { "id": 62, "en": "family",      "ja": "家族",     "type": "noun",   "difficulty": 1 },
+        { "id": 63, "en": "uncle",       "ja": "おじ",     "type": "noun",   "difficulty": 2 },
+        { "id": 64, "en": "aunt",        "ja": "おば",     "type": "noun",   "difficulty": 2 },
+        { "id": 65, "en": "cousin",      "ja": "いとこ",   "type": "noun",   "difficulty": 2 }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "食べ物",
+      "icon": "🍎",
+      "words": [
+        { "id": 66, "en": "rice",        "ja": "ご飯",     "type": "noun",   "difficulty": 1 },
+        { "id": 67, "en": "bread",       "ja": "パン",     "type": "noun",   "difficulty": 1 },
+        { "id": 68, "en": "meat",        "ja": "肉",       "type": "noun",   "difficulty": 1 },
+        { "id": 69, "en": "fish",        "ja": "魚",       "type": "noun",   "difficulty": 1 },
+        { "id": 70, "en": "vegetable",   "ja": "野菜",     "type": "noun",   "difficulty": 2 },
+        { "id": 71, "en": "fruit",       "ja": "果物",     "type": "noun",   "difficulty": 1 },
+        { "id": 72, "en": "apple",       "ja": "りんご",   "type": "noun",   "difficulty": 1 },
+        { "id": 73, "en": "orange",      "ja": "オレンジ", "type": "noun",   "difficulty": 1 },
+        { "id": 74, "en": "milk",        "ja": "牛乳",     "type": "noun",   "difficulty": 1 },
+        { "id": 75, "en": "water",       "ja": "水",       "type": "noun",   "difficulty": 1 },
+        { "id": 76, "en": "juice",       "ja": "ジュース", "type": "noun",   "difficulty": 1 },
+        { "id": 77, "en": "cake",        "ja": "ケーキ",   "type": "noun",   "difficulty": 1 },
+        { "id": 78, "en": "egg",         "ja": "卵",       "type": "noun",   "difficulty": 1 },
+        { "id": 79, "en": "soup",        "ja": "スープ",   "type": "noun",   "difficulty": 1 },
+        { "id": 80, "en": "salad",       "ja": "サラダ",   "type": "noun",   "difficulty": 1 }
+      ]
+    }
+  ],
+  "questionTemplates": [
+    {
+      "type": "ja_to_en",
+      "label": "日本語→英語",
+      "prompt": "「{ja}」を英語にすると？",
+      "answer": "en",
+      "distractorKey": "en"
+    },
+    {
+      "type": "en_to_ja",
+      "label": "英語→日本語",
+      "prompt": "\"{en}\" の意味は？",
+      "answer": "ja",
+      "distractorKey": "ja"
+    }
+  ],
+  "fillInTemplates": [
+    {
+      "id": "f1",
+      "prompt": "I ___ soccer every day.",
+      "answer": "play",
+      "distractors": ["do", "go", "make"],
+      "hint": "「する・遊ぶ」という意味の動詞",
+      "category": "actions"
+    },
+    {
+      "id": "f2",
+      "prompt": "She ___ English at school.",
+      "answer": "studies",
+      "distractors": ["learn", "reads", "watches"],
+      "hint": "「勉強する」三単現",
+      "category": "actions"
+    },
+    {
+      "id": "f3",
+      "prompt": "I drink ___ every morning.",
+      "answer": "milk",
+      "distractors": ["water", "juice", "soup"],
+      "hint": "朝に飲む白い飲み物",
+      "category": "food"
+    },
+    {
+      "id": "f4",
+      "prompt": "My ___ is a teacher.",
+      "answer": "father",
+      "distractors": ["brother", "cousin", "uncle"],
+      "hint": "「お父さん」",
+      "category": "family"
+    },
+    {
+      "id": "f5",
+      "prompt": "We have math class on ___.",
+      "answer": "Monday",
+      "distractors": ["morning", "today", "evening"],
+      "hint": "曜日の最初の日",
+      "category": "time"
+    },
+    {
+      "id": "f6",
+      "prompt": "I forgot my ___ at home.",
+      "answer": "textbook",
+      "distractors": ["notebook", "eraser", "desk"],
+      "hint": "授業で使う本",
+      "category": "school"
+    }
+  ],
+  "difficultySettings": {
+    "normal": {
+      "questionTimeLimit": null,
+      "hintCount": 1,
+      "distractorCount": 3
+    },
+    "boss": {
+      "questionTimeLimit": 8,
+      "hintCount": 0,
+      "distractorCount": 3,
+      "preferFillIn": true,
+      "preferHighDifficulty": true
+    }
+  },
+  "battleSettings": {
+    "playerMaxHP": 100,
+    "enemyMaxHP": 200,
+    "damageOnCorrect": 50,
+    "damageOnWrong": 20,
+    "comboMultipliers": {
+      "3": 1.5,
+      "5": 2.0,
+      "8": 3.0,
+      "10": 5.0
+    },
+    "skills": {
+      "fireSlash": { "triggerCombo": 3, "damageMultiplier": 3.0 },
+      "heal": { "triggerCombo": 5, "healAmount": 20 },
+      "focus": { "type": "manual", "effect": "reduce_choices_to_2", "maxUses": 1 }
+    },
+    "bossTriggerTime": 30,
+    "totalTime": 180
+  }
+}
